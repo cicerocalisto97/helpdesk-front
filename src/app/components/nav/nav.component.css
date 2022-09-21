@@ -3,7 +3,7 @@
 }
 
 .sidenav {
-    width: 13rem;
+    width: 11rem;
     color:white;
     background: linear-gradient(90deg, rgba(0,16,36,1) 0%, rgba(9,22,121,1) 25%, rgba(0,212,255,1) 100%);
 }
