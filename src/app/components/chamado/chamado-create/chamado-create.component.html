@@ -9,6 +9,13 @@
         </mat-form-field>
     </form>
 
+    <form class="form">
+      <mat-form-field class="full-width" appearance="outline">
+        <mat-label>Categoria</mat-label>
+        <input [(ngModel)]="chamado.categoria" name="categoria" [formControl]="categoria" required matInput placeholder="Ex. Trocar bateria de notebook">
+      </mat-form-field>
+  </form>
+
     <div class="status-prioridade">
         <mat-form-field appearance="outline">
             <mat-label>Selecione um status</mat-label>

@@ -9,6 +9,13 @@
         </mat-form-field>
     </form>
 
+    <form class="form">
+      <mat-form-field class="full-width" appearance="outline">
+        <mat-label>Categoria</mat-label>
+        <input [disabled]="true" [(ngModel)]="chamado.categoria" name="categoria" matInput placeholder="Ex. Instalação">
+      </mat-form-field>
+  </form>
+
     <div class="status-prioridade">
         <mat-form-field appearance="outline">
             <mat-label>STATUS ({{ retornaStatus(chamado.status) }})</mat-label>

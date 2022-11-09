@@ -22,9 +22,9 @@ h1{
 }
 
 .edit {
-    color: rgb(0, 153, 255)
+    color: #007ACC;
 }
 
 .delete {
-    color: red
+    color: #ED0000;
 }

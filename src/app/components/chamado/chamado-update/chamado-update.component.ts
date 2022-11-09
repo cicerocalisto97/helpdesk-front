@@ -20,6 +20,7 @@ export class ChamadoUpdateComponent implements OnInit {
     prioridade: '',
     status: '',
     titulo: '',
+    categoria: '',
     observacoes: '',
     tecnico: '',
     cliente: '',
@@ -33,6 +34,7 @@ export class ChamadoUpdateComponent implements OnInit {
   prioridade: FormControl = new FormControl(null, [Validators.required]);
   status: FormControl = new FormControl(null, [Validators.required]);
   titulo: FormControl = new FormControl(null, [Validators.required]);
+  categoria: FormControl = new FormControl(null, [Validators.required]);
   observacoes: FormControl = new FormControl(null, [Validators.required]);
   tecnico: FormControl = new FormControl(null, [Validators.required]);
   cliente: FormControl = new FormControl(null, [Validators.required]);
